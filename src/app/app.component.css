@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    background-color: pink;
+    background-image: linear-gradient(to bottom right, pink, red);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+form {
+    align-items: flex-start;
+    align-items: center;
+    background-color: white;
+    width: 85%;
+    margin: 1.5em auto;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid lightgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: lighter;
+    align-items: center;
+    width: 95%;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+#addButton {
+    align-items: center;
+    width: 98%;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+ul {
+    display: flex;
+    align-items: baseline;
+    margin-left: 3%;
+    width: 95%;
+}
+
+li {
+    width: 100%;
+}
+
+#list {
+    flex-direction: row;
+    padding: 5px;
+    width: 100%;
+}
+
+span {
+    width: 100%;    
+}
+
+#list span {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#list p {
+    flex-wrap: wrap;
+}
+
+.completeButton {
+    color: violet;
+    border-color: violet;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.xButton {
+    display: flex;
+    margin-left: auto;
+    margin-right: 2%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 150%;
+    border: none;
+}
+
+.isLeft {
+    display: flex;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.lineThru {
+    text-decoration: line-through;
+    margin-left: 6px;
+}
+
+.goodbyeButton {
+    display: none;
+}
+
+.goodbyeLine {
+    display: none;
+}
